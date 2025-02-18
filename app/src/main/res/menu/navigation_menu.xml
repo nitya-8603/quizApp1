@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/website"
+            android:icon="@drawable/baseline_a"
+            android:title="Visit Website"/>
+        <item
+            android:id="@+id/facebookPage"
+            android:icon="@drawable/baseline_arrow_back_24"
+            android:title="Follow on Facebook"/>
+    </group>
+    <item android:title="Communication">
+    <menu>
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/baseline_c"
+            android:title="Rate or Feedback"/>
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/baseline_e"
+        android:title="Share"/>
+    <item
+        android:id="@+id/nav_privacy_policy"
+        android:icon="@drawable/d"
+        android:title="Privacy Policy"/>
+    <item
+        android:id="@+id/nav_terms_conditions"
+        android:icon="@drawable/f"
+        android:title="terms and conditions"/>
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/g"
+        android:title="More"/>
+   </menu>
+</item>
+
+
+</menu>
